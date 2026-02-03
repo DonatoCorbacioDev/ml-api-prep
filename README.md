@@ -1,6 +1,6 @@
 # ML API Prep – Titanic Dataset
 
-Questo progetto è un mini progetto di Machine Learning realizzato per consolidare la pipeline completa di un problema di classificazione supervisionata.
+Questo progetto è un mini progetto di Machine Learning realizzato con l’obiettivo di consolidare il metodo e la pipeline completa di un problema di classificazione supervisionata.
 
 ## Obiettivo
 
@@ -24,6 +24,12 @@ Il progetto segue i seguenti step:
 ## Modello
 
 È stato utilizzato un modello di **Logistic Regression** come baseline, ottenendo un'accuracy di circa **0.81** sul test set.
+
+## Analisi non supervisionata
+
+È stata effettuata un’analisi non supervisionata sul dataset Titanic utilizzando KMeans, con l’obiettivo di individuare gruppi naturali di passeggeri senza utilizzare la variabile target.
+
+L’analisi ha evidenziato cluster coerenti e interpretabili in termini di età, classe di viaggio e composizione familiare.
 
 ## Struttura del progetto
 
